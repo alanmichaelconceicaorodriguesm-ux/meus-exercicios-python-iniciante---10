@@ -1,12 +1,13 @@
 # meus-exercicios-python-iniciante - 10
 São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-nome = str(input("Qual o seu nome? "))
-idade = int(input("Qual a sua idade? "))
-altura = float(input("Qual a sua altura? "))
+lista = []
 
-print("—" * 30)
-
-print(nome)
-print(idade)
-print(altura)
+while True:
+    numero = float(input("Número: "))
+    if numero == 0:
+        break
+        
+    lista.append(numero)
+    
+print(f"Esses são a os númweos digitados antes do 0: {lista}.")
