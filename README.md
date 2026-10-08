@@ -1,13 +1,15 @@
 # meus-exercicios-python-iniciante - 10
 São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-lista = []
+n1 = int(input("Número 1: "))
+n2 = int(input("Número 2: "))
+n3 = int(input("Número 3: "))
 
-while True:
-    numero = float(input("Número: "))
-    if numero == 0:
-        break
-        
-    lista.append(numero)
+if n1 > n2 and n1 > n3:
+    print(f"O maior número é: {n1}.")
     
-print(f"Esses são a os númweos digitados antes do 0: {lista}.")
+elif n2 > n1 and n2 > n3:
+    print("O maior número é: ", n2)
+    
+else:
+     print(n3)
