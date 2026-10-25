@@ -12,4 +12,4 @@ elif n2 > n1 and n2 > n3:
     print("O maior número é: ", n2)
     
 else:
-     print(n3)
+     print(f"{n3}")
