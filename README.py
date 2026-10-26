@@ -1,15 +1,10 @@
 # meus-exercicios-python-iniciante - 10
 São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-n1 = int(input("Número 1: "))
-n2 = int(input("Número 2: "))
-n3 = int(input("Número 3: "))
+mat = [
+    ["Alan", "Ale"],
+    ["André", "Adnilson"],
+    ["Gabi", "Emily"]
+]
 
-if n1 > n2 and n1 > n3:
-    print(f"O maior número é: {n1}.")
-    
-elif n2 > n1 and n2 > n3:
-    print("O maior número é: ", n2)
-    
-else:
-     print(f"{n3}")
+print(mat[2][1])
