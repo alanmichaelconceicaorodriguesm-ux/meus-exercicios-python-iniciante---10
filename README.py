@@ -12,3 +12,4 @@ print("Nome: ", pessoa["nome"])
 print(f"Peso: {pessoa["peso"]}.")
 print(pessoa["idade"]) 
 # Nestes exemplos de linhas acima coloquei 3 tipos de maneiras de fazer, claro que resultam quase no mesmo resultado.
+# Eu me baseie no repositório de dicionário se estiver correto. 
