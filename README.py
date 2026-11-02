@@ -1,6 +1,14 @@
 # meus-exercicios-python-iniciante - 10
-São questões simples para minha pessoa ter uma ser noção do meu progresso. 
+#São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-for numero in range(1, 33):
-    if numero % 3 == 0:
-        print(numero, end=" ")
+pessoa = {
+    "nome": "Teste.",
+    "peso": 0.0,
+    "idade": 0
+}
+
+print("Dados do usuário logo abaixo:")
+print("Nome: ", pessoa["nome"])
+print(f"Peso: {pessoa["peso"]}.")
+print(pessoa["idade"]) 
+# Nestes exemplos de linhas acima coloquei 3 tipos de maneiras de fazer, claro que resultam quase no mesmo resultado.
